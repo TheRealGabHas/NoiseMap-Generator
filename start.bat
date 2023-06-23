@@ -1,3 +1,3 @@
 @echo off
-start /min python app.py %*
+start /min pythonw app.py %*
 exit

@@ -263,7 +263,8 @@ ask_height_entry.bind("<FocusOut>", change_color)
 ask_height_entry.grid(column=0, row=0, sticky=tk.NW, padx=200, pady=50)
 
 # Size warning
-size_caution_label = ttk.Label(window, text="Note: Inputting size values greater than 512 will result in the preview being in another window")
+size_caution_label = ttk.Label(window, text="Note: Inputting size values greater than 512 will result in the preview "
+                                            "being in another window")
 size_caution_label.grid(column=0, row=0, sticky=tk.NW, padx=20, pady=80)
 
 # Seed and octave label/ entry
